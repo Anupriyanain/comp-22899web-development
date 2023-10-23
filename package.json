@@ -1,0 +1,31 @@
+{
+  "name": "anupriya",
+  "version": "1.0.0",
+  "description": "It is a web development subject project",
+  "main": "index.js",
+  "author": "Anupriya Nain",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anupriyanain/Lab2.git"
+  },
+  "keywords": [
+    "web",
+    "development",
+    "JavaScript",
+    "Node.js"
+  ],
+  "bugs": {
+    "url": "https://github.com/Anupriyanain/Lab2/issues"
+  },
+  "homepage": "https://github.com/Anupriyanain/Lab2#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongoose": "^7.6.3"
+  }
+}

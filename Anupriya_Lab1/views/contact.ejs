@@ -1,0 +1,30 @@
+
+<div class="container text-center">
+    <div class="row">
+        <div class="col">
+            <h3><%-title%></h3>
+            <p>LinkdIn: <a href="<%=contact.linkdin %>"><%=contact.linkdin %></a></p>
+            <p>Email: <a href="mailto:<%-contact.email %>"><%-contact.email %></a></p>
+        </div>
+        <div class="col" style="text-align: left;">
+            <form action="/Anupriya_Lab1/views/home.ejs" method="post">
+                <label for="firstName"> First Name </label><br>
+                <input type="text" name="firstName" id="firstName"/><br>
+
+                <label for="LastName">Last Name</label><br>
+                <input type="text" name="LastName" id="LastName"/><br>
+
+                <label for="ContactNumber">Contact Number</label><br>
+                <input type="text" name="ContactNumber" id="ContactNumber"/><br>
+
+                <label for="email">Email</label><br>
+                <input type="text" name="email" id="email"/><br>
+
+                <label for="message">Message</label><br>
+                <textarea rows="4" cols="50" name="message" id="message"></textarea><br>
+                
+                <button style="margin-top: 1rem;" type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+</div>

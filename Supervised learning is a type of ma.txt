@@ -1,0 +1,47 @@
+Supervised learning: is a type of machine learning where an algorithm learns to map input data to a desired output based on a labeled dataset. In other words, it involves training a model to make predictions or decisions by providing it with input-output pairs where the data is correct.
+
+Example: handwritten digit recognition: given images of handwritten digits and their corresponding labels(0-9) a supervised learning algorithm can be   
+
+Spam email: detect the email of spam
+
+some key details about supervised learning :
+labeled data: In supervised learning, you start with a labeled dataset, which consists of input data(features) and their corresponding correct output. These labels serve as the ground truth that algorithms use to learn and make predictions.
+Typess: 2
+Classification: This is used when the output variable is a category or class label. The goal is to classify data points into predefined classes or categories, 
+Regression: where output is a value 
+
+natural language
+
+Feature engineering Example: a bag of words: convert the word data to matrix. 
+TF-IDF- (term frequency-inverse document frequency
+word embedding 
+word length
+
+Data Splitt
+Hyperparameter tuning:  
+
+Example: 1 Learning Rate: Gradient descent neutral network
+2 number of trees
+kernel type
+K-value
+Depth of tree
+
+
+Scalability
+The choice of algorithm and model can impact the scalability of supervised learning
+
+Two types of supervised learning: 
+1. Classification: nature of object and output
+
+
+Simple linear regression: managerial decisions often are based on the relationship between two or more variables. 
+
+equation: y=b0 +B1x +e
+b0(intercept of y) b1
+Simple linear relationships are : 3 positive negative and neutral 
+positive: 
+least square method: 
+formula: min E(y1-y2) 
+
+
+  

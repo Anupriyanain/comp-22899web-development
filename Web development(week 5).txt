@@ -1,0 +1,13 @@
+Web development(week 5)
+Relational database:
+               db.posts.find(("comment-count))
+db.posts.find() 
+- all of the collections
+db.posts.find(("user":"alice","comment-count":5))
+
+to update any object
+ db.posts.update(("user": "alice"),("title": "Second Post","user": "alice"),
+Upsert:
+
+to remove documents, remove() method
+when you use remove() - all documents and when you use remove({})   
